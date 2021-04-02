@@ -9,7 +9,7 @@ class User {
 
   id?: string;
   name: string;
-  admin: string;
+  admin?: string;
   email: string;
   created_at: Date;
   updated_at: Date;
